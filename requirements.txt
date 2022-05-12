@@ -15,3 +15,9 @@ lxml
 requests
 messages
 js2py
+#run bot
+aiogram
+
+#gplink
+cloudscraper==1.2.58
+beautifulsoup4==4.11.1
