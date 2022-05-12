@@ -9,7 +9,6 @@ hurry.filesize
 python-dotenv
 psutil
 pyprog
-beautifulsoup4
 bs4
 lxml
 requests
