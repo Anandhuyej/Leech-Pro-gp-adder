@@ -17,7 +17,7 @@ bot = Dispatcher(K)
 #https://github.com/BotfatherDev/CommonChatModer/blob/work_in_groups/filters/chat_filters.py#L10
 class IsPrivate(BoundFilter):
     async def check(self, message: types.Message):
-        return message.chat.type == types.ChatType.PRIVATE
+        return message.chat.type == types.ChatType.supergroup
 
 
 @bot.message_handler(IsPrivate(), Command("start", prefixes="/"))
